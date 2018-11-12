@@ -1,0 +1,7 @@
+# compiled executables
+server
+client
+
+# swapfiles etc
+*.swp
+.*.swp
