@@ -1,0 +1,264 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Base64	include/3rd_party/crypto.hpp	/^    class Base64 {$/;"	c	class:SimpleWeb::Crypto
+CLIENT_NAME	makefile	/^CLIENT_NAME = client$/;"	m
+CLIENT_SRC	makefile	/^CLIENT_SRC = src\/client.cpp$/;"	m
+CLIENT_WS_HPP	include/3rd_party/client_ws.hpp	2;"	d
+CXX_FLAGS	makefile	/^CXX_FLAGS = -Wall -Wextra$/;"	m
+CXX_INCLUDE_DIRS	makefile	/^CXX_INCLUDE_DIRS = -I include\/3rd_party -I include$/;"	m
+CXX_LIBS	makefile	/^CXX_LIBS = \\$/;"	m
+CaseInsensitiveEqual	include/3rd_party/utility.hpp	/^  class CaseInsensitiveEqual {$/;"	c	namespace:SimpleWeb
+CaseInsensitiveHash	include/3rd_party/utility.hpp	/^  class CaseInsensitiveHash {$/;"	c	namespace:SimpleWeb
+Config	include/3rd_party/client_ws.hpp	/^    class Config {$/;"	c	class:SimpleWeb::SocketClientBase
+Config	include/3rd_party/server_ws.hpp	/^    class Config {$/;"	c	class:SimpleWeb::SocketServerBase
+Connection	include/3rd_party/client_ws.hpp	/^    class Connection : public std::enable_shared_from_this<Connection> {$/;"	c	class:SimpleWeb::SocketClientBase
+Connection	include/3rd_party/server_ws.hpp	/^    class Connection : public std::enable_shared_from_this<Connection> {$/;"	c	class:SimpleWeb::SocketServerBase
+Crypto	include/3rd_party/crypto.hpp	/^  class Crypto {$/;"	c	namespace:SimpleWeb
+Endpoint	include/3rd_party/server_ws.hpp	/^    class Endpoint {$/;"	c	class:SimpleWeb::SocketServerBase
+FieldValue	include/3rd_party/utility.hpp	/^    class FieldValue {$/;"	c	class:SimpleWeb::HttpHeader
+HttpHeader	include/3rd_party/utility.hpp	/^  class HttpHeader {$/;"	c	namespace:SimpleWeb
+MAX_PORT_NUM	include/utils.hpp	7;"	d
+Message	include/3rd_party/client_ws.hpp	/^    class Message : public std::istream {$/;"	c	class:SimpleWeb::SocketClientBase
+Message	include/3rd_party/server_ws.hpp	/^    class Message : public std::istream {$/;"	c	class:SimpleWeb::SocketServerBase
+Percent	include/3rd_party/utility.hpp	/^  class Percent {$/;"	c	namespace:SimpleWeb
+QueryString	include/3rd_party/utility.hpp	/^  class QueryString {$/;"	c	namespace:SimpleWeb
+RequestMessage	include/3rd_party/utility.hpp	/^  class RequestMessage {$/;"	c	namespace:SimpleWeb
+ResponseMessage	include/3rd_party/utility.hpp	/^  class ResponseMessage {$/;"	c	namespace:SimpleWeb
+SERVER_NAME	makefile	/^SERVER_NAME = server$/;"	m
+SERVER_SRC	makefile	/^SERVER_SRC = src\/server.cpp$/;"	m
+SERVER_WS_HPP	include/3rd_party/server_ws.hpp	2;"	d
+SIMPLE_WEB_CRYPTO_HPP	include/3rd_party/crypto.hpp	2;"	d
+SIMPLE_WEB_STATUS_CODE_HPP	include/3rd_party/status_code.hpp	2;"	d
+SIMPLE_WEB_UTILITY_HPP	include/3rd_party/utility.hpp	2;"	d
+ScopeRunner	include/3rd_party/utility.hpp	/^  class ScopeRunner {$/;"	c	namespace:SimpleWeb
+SemicolonSeparatedAttributes	include/3rd_party/utility.hpp	/^      class SemicolonSeparatedAttributes {$/;"	c	class:SimpleWeb::HttpHeader::FieldValue
+SendData	include/3rd_party/client_ws.hpp	/^      class SendData {$/;"	c	class:SimpleWeb::SocketClientBase::Connection
+SendData	include/3rd_party/server_ws.hpp	/^      class SendData {$/;"	c	class:SimpleWeb::SocketServerBase::Connection
+SendStream	include/3rd_party/client_ws.hpp	/^    class SendStream : public std::iostream {$/;"	c	class:SimpleWeb::SocketClientBase
+SendStream	include/3rd_party/server_ws.hpp	/^    class SendStream : public std::ostream {$/;"	c	class:SimpleWeb::SocketServerBase
+SharedLock	include/3rd_party/utility.hpp	/^    class SharedLock {$/;"	c	class:SimpleWeb::ScopeRunner
+SimpleWeb	include/3rd_party/client_ws.hpp	/^namespace SimpleWeb {$/;"	n
+SimpleWeb	include/3rd_party/crypto.hpp	/^namespace SimpleWeb {$/;"	n
+SimpleWeb	include/3rd_party/server_ws.hpp	/^namespace SimpleWeb {$/;"	n
+SimpleWeb	include/3rd_party/status_code.hpp	/^namespace SimpleWeb {$/;"	n
+SimpleWeb	include/3rd_party/utility.hpp	/^namespace SimpleWeb {$/;"	n
+SocketClient	include/3rd_party/client_ws.hpp	/^  class SocketClient : public SocketClientBase<socket_type> {};$/;"	c	namespace:SimpleWeb
+SocketClient	include/3rd_party/client_ws.hpp	/^  class SocketClient<WS> : public SocketClientBase<WS> {$/;"	c	namespace:SimpleWeb
+SocketClientBase	include/3rd_party/client_ws.hpp	/^    SocketClient(const std::string &server_port_path) noexcept : SocketClientBase<WS>::SocketClientBase(server_port_path, 80){};$/;"	f	class:SimpleWeb::SocketClient::SocketClientBase
+SocketClientBase	include/3rd_party/client_ws.hpp	/^  class SocketClientBase {$/;"	c	namespace:SimpleWeb
+SocketServer	include/3rd_party/server_ws.hpp	/^  class SocketServer : public SocketServerBase<socket_type> {};$/;"	c	namespace:SimpleWeb
+SocketServer	include/3rd_party/server_ws.hpp	/^  class SocketServer<WS> : public SocketServerBase<WS> {$/;"	c	namespace:SimpleWeb
+SocketServerBase	include/3rd_party/server_ws.hpp	/^  class SocketServerBase {$/;"	c	namespace:SimpleWeb
+StatusCode	include/3rd_party/status_code.hpp	/^  enum class StatusCode {$/;"	c	namespace:SimpleWeb
+accept_and_run	include/3rd_party/server_ws.hpp	/^    void accept_and_run() {$/;"	f	class:SimpleWeb::SocketServerBase
+acceptor	include/3rd_party/server_ws.hpp	/^    std::unique_ptr<asio::ip::tcp::acceptor> acceptor;$/;"	m	class:SimpleWeb::SocketServerBase
+address	include/3rd_party/server_ws.hpp	/^      std::string address;$/;"	m	class:SimpleWeb::SocketServerBase::Config
+after_bind	include/3rd_party/server_ws.hpp	/^    virtual void after_bind() {}$/;"	f	class:SimpleWeb::SocketServerBase
+bind	include/3rd_party/server_ws.hpp	/^    unsigned short bind() {$/;"	f	class:SimpleWeb::SocketServerBase
+buffer_size	include/3rd_party/crypto.hpp	/^    const static std::size_t buffer_size = 131072;$/;"	m	class:SimpleWeb::Crypto
+callback	include/3rd_party/client_ws.hpp	/^        std::function<void(const error_code)> callback;$/;"	m	class:SimpleWeb::SocketClientBase::Connection::SendData
+callback	include/3rd_party/server_ws.hpp	/^        std::function<void(const error_code)> callback;$/;"	m	class:SimpleWeb::SocketServerBase::Connection::SendData
+client_error_bad_request	include/3rd_party/status_code.hpp	/^    client_error_bad_request = 400,$/;"	m	class:SimpleWeb::StatusCode
+client_error_conflict	include/3rd_party/status_code.hpp	/^    client_error_conflict,$/;"	m	class:SimpleWeb::StatusCode
+client_error_expectation_failed	include/3rd_party/status_code.hpp	/^    client_error_expectation_failed,$/;"	m	class:SimpleWeb::StatusCode
+client_error_failed_dependency	include/3rd_party/status_code.hpp	/^    client_error_failed_dependency,$/;"	m	class:SimpleWeb::StatusCode
+client_error_forbidden	include/3rd_party/status_code.hpp	/^    client_error_forbidden,$/;"	m	class:SimpleWeb::StatusCode
+client_error_gone	include/3rd_party/status_code.hpp	/^    client_error_gone,$/;"	m	class:SimpleWeb::StatusCode
+client_error_im_a_teapot	include/3rd_party/status_code.hpp	/^    client_error_im_a_teapot,$/;"	m	class:SimpleWeb::StatusCode
+client_error_length_required	include/3rd_party/status_code.hpp	/^    client_error_length_required,$/;"	m	class:SimpleWeb::StatusCode
+client_error_locked	include/3rd_party/status_code.hpp	/^    client_error_locked,$/;"	m	class:SimpleWeb::StatusCode
+client_error_method_not_allowed	include/3rd_party/status_code.hpp	/^    client_error_method_not_allowed,$/;"	m	class:SimpleWeb::StatusCode
+client_error_misdirection_required	include/3rd_party/status_code.hpp	/^    client_error_misdirection_required = 421,$/;"	m	class:SimpleWeb::StatusCode
+client_error_not_acceptable	include/3rd_party/status_code.hpp	/^    client_error_not_acceptable,$/;"	m	class:SimpleWeb::StatusCode
+client_error_not_found	include/3rd_party/status_code.hpp	/^    client_error_not_found,$/;"	m	class:SimpleWeb::StatusCode
+client_error_payload_too_large	include/3rd_party/status_code.hpp	/^    client_error_payload_too_large,$/;"	m	class:SimpleWeb::StatusCode
+client_error_payment_required	include/3rd_party/status_code.hpp	/^    client_error_payment_required,$/;"	m	class:SimpleWeb::StatusCode
+client_error_precondition_failed	include/3rd_party/status_code.hpp	/^    client_error_precondition_failed,$/;"	m	class:SimpleWeb::StatusCode
+client_error_precondition_required	include/3rd_party/status_code.hpp	/^    client_error_precondition_required = 428,$/;"	m	class:SimpleWeb::StatusCode
+client_error_proxy_authentication_required	include/3rd_party/status_code.hpp	/^    client_error_proxy_authentication_required,$/;"	m	class:SimpleWeb::StatusCode
+client_error_range_not_satisfiable	include/3rd_party/status_code.hpp	/^    client_error_range_not_satisfiable,$/;"	m	class:SimpleWeb::StatusCode
+client_error_request_header_fields_too_large	include/3rd_party/status_code.hpp	/^    client_error_request_header_fields_too_large = 431,$/;"	m	class:SimpleWeb::StatusCode
+client_error_request_timeout	include/3rd_party/status_code.hpp	/^    client_error_request_timeout,$/;"	m	class:SimpleWeb::StatusCode
+client_error_too_many_requests	include/3rd_party/status_code.hpp	/^    client_error_too_many_requests,$/;"	m	class:SimpleWeb::StatusCode
+client_error_unauthorized	include/3rd_party/status_code.hpp	/^    client_error_unauthorized,$/;"	m	class:SimpleWeb::StatusCode
+client_error_unavailable_for_legal_reasons	include/3rd_party/status_code.hpp	/^    client_error_unavailable_for_legal_reasons = 451,$/;"	m	class:SimpleWeb::StatusCode
+client_error_unprocessable_entity	include/3rd_party/status_code.hpp	/^    client_error_unprocessable_entity,$/;"	m	class:SimpleWeb::StatusCode
+client_error_unsupported_media_type	include/3rd_party/status_code.hpp	/^    client_error_unsupported_media_type,$/;"	m	class:SimpleWeb::StatusCode
+client_error_upgrade_required	include/3rd_party/status_code.hpp	/^    client_error_upgrade_required = 426,$/;"	m	class:SimpleWeb::StatusCode
+client_error_uri_too_long	include/3rd_party/status_code.hpp	/^    client_error_uri_too_long,$/;"	m	class:SimpleWeb::StatusCode
+closed	include/3rd_party/client_ws.hpp	/^          : handler_runner(std::move(handler_runner)), socket(new socket_type(std::forward<Args>(args)...)), timeout_idle(timeout_idle), strand(socket->get_io_service()), closed(false) {}$/;"	f	class:SimpleWeb::SocketClientBase::Connection
+closed	include/3rd_party/client_ws.hpp	/^      std::atomic<bool> closed;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+closed	include/3rd_party/server_ws.hpp	/^          : handler_runner(std::move(handler_runner)), socket(new socket_type(std::forward<Args>(args)...)), timeout_idle(timeout_idle), strand(socket->get_io_service()), closed(false) {}$/;"	f	class:SimpleWeb::SocketServerBase::Connection
+closed	include/3rd_party/server_ws.hpp	/^      Connection(std::unique_ptr<socket_type> &&socket) noexcept : socket(std::move(socket)), timeout_idle(0), strand(this->socket->get_io_service()), closed(false) {}$/;"	f	class:SimpleWeb::SocketServerBase::Connection
+closed	include/3rd_party/server_ws.hpp	/^      std::atomic<bool> closed;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+config	include/3rd_party/client_ws.hpp	/^    Config config;$/;"	m	class:SimpleWeb::SocketClientBase
+config	include/3rd_party/server_ws.hpp	/^    Config config;$/;"	m	class:SimpleWeb::SocketServerBase
+connection	include/3rd_party/client_ws.hpp	/^    std::shared_ptr<Connection> connection;$/;"	m	class:SimpleWeb::SocketClientBase
+connection_close	include/3rd_party/client_ws.hpp	/^    void connection_close(const std::shared_ptr<Connection> &connection, int status, const std::string &reason) const {$/;"	f	class:SimpleWeb::SocketClientBase
+connection_close	include/3rd_party/server_ws.hpp	/^    void connection_close(const std::shared_ptr<Connection> &connection, Endpoint &endpoint, int status, const std::string &reason) const {$/;"	f	class:SimpleWeb::SocketServerBase
+connection_error	include/3rd_party/client_ws.hpp	/^    void connection_error(const std::shared_ptr<Connection> &connection, const error_code &ec) const {$/;"	f	class:SimpleWeb::SocketClientBase
+connection_error	include/3rd_party/server_ws.hpp	/^    void connection_error(const std::shared_ptr<Connection> &connection, Endpoint &endpoint, const error_code &ec) const {$/;"	f	class:SimpleWeb::SocketServerBase
+connection_mutex	include/3rd_party/client_ws.hpp	/^    std::mutex connection_mutex;$/;"	m	class:SimpleWeb::SocketClientBase
+connection_open	include/3rd_party/client_ws.hpp	/^    void connection_open(const std::shared_ptr<Connection> &connection) const {$/;"	f	class:SimpleWeb::SocketClientBase
+connection_open	include/3rd_party/server_ws.hpp	/^    void connection_open(const std::shared_ptr<Connection> &connection, Endpoint &endpoint) const {$/;"	f	class:SimpleWeb::SocketServerBase
+connections	include/3rd_party/server_ws.hpp	/^      std::unordered_set<std::shared_ptr<Connection>> connections;$/;"	m	class:SimpleWeb::SocketServerBase::Endpoint
+connections_mutex	include/3rd_party/server_ws.hpp	/^      std::mutex connections_mutex;$/;"	m	class:SimpleWeb::SocketServerBase::Endpoint
+count	include/3rd_party/utility.hpp	/^      SharedLock(std::atomic<long> &count) noexcept : count(count) {}$/;"	f	class:SimpleWeb::ScopeRunner::SharedLock
+count	include/3rd_party/utility.hpp	/^      std::atomic<long> &count;$/;"	m	class:SimpleWeb::ScopeRunner::SharedLock
+count	include/3rd_party/utility.hpp	/^    std::atomic<long> count;$/;"	m	class:SimpleWeb::ScopeRunner
+endpoint	include/3rd_party/server_ws.hpp	/^    std::map<regex_orderable, Endpoint> endpoint;$/;"	m	class:SimpleWeb::SocketServerBase
+fin_rsv_opcode	include/3rd_party/client_ws.hpp	/^      unsigned char fin_rsv_opcode;$/;"	m	class:SimpleWeb::SocketClientBase::Message
+fin_rsv_opcode	include/3rd_party/server_ws.hpp	/^      unsigned char fin_rsv_opcode;$/;"	m	class:SimpleWeb::SocketServerBase::Message
+fragmented_message	include/3rd_party/client_ws.hpp	/^      std::shared_ptr<Message> fragmented_message;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+fragmented_message	include/3rd_party/server_ws.hpp	/^      std::shared_ptr<Message> fragmented_message;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+generate_handshake	include/3rd_party/server_ws.hpp	/^      bool generate_handshake(const std::shared_ptr<asio::streambuf> &write_buffer) {$/;"	f	class:SimpleWeb::SocketServerBase::Connection
+get_port_from_argv	src/server.cpp	/^int get_port_from_argv(int _argc, char** _argv, unsigned short* port_no_) {$/;"	f
+handler_runner	include/3rd_party/client_ws.hpp	/^      std::shared_ptr<ScopeRunner> handler_runner;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+handler_runner	include/3rd_party/client_ws.hpp	/^    SocketClientBase(const std::string &host_port_path, unsigned short default_port) noexcept : handler_runner(new ScopeRunner()) {$/;"	f	class:SimpleWeb::SocketClientBase
+handler_runner	include/3rd_party/client_ws.hpp	/^    std::shared_ptr<ScopeRunner> handler_runner;$/;"	m	class:SimpleWeb::SocketClientBase
+handler_runner	include/3rd_party/server_ws.hpp	/^      std::shared_ptr<ScopeRunner> handler_runner;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+handler_runner	include/3rd_party/server_ws.hpp	/^    SocketServerBase(unsigned short port) noexcept : config(port), handler_runner(new ScopeRunner()) {}$/;"	f	class:SimpleWeb::SocketServerBase
+handler_runner	include/3rd_party/server_ws.hpp	/^    std::shared_ptr<ScopeRunner> handler_runner;$/;"	m	class:SimpleWeb::SocketServerBase
+handshake	include/3rd_party/client_ws.hpp	/^    void handshake(const std::shared_ptr<Connection> &connection) {$/;"	f	class:SimpleWeb::SocketClientBase
+header	include/3rd_party/client_ws.hpp	/^      CaseInsensitiveMultimap header;$/;"	m	class:SimpleWeb::SocketClientBase::Config
+header	include/3rd_party/client_ws.hpp	/^      CaseInsensitiveMultimap header;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+header	include/3rd_party/server_ws.hpp	/^      CaseInsensitiveMultimap header;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+header_stream	include/3rd_party/server_ws.hpp	/^        std::shared_ptr<SendStream> header_stream;$/;"	m	class:SimpleWeb::SocketServerBase::Connection::SendData
+help	src/client.cpp	/^void help()$/;"	f
+help	src/server.cpp	/^void help()$/;"	f
+host	include/3rd_party/client_ws.hpp	/^    std::string host;$/;"	m	class:SimpleWeb::SocketClientBase
+http_version	include/3rd_party/client_ws.hpp	/^      std::string http_version, status_code;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+http_version	include/3rd_party/server_ws.hpp	/^      std::string method, path, query_string, http_version;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+information_continue	include/3rd_party/status_code.hpp	/^    information_continue = 100,$/;"	m	class:SimpleWeb::StatusCode
+information_processing	include/3rd_party/status_code.hpp	/^    information_processing,$/;"	m	class:SimpleWeb::StatusCode
+information_switching_protocols	include/3rd_party/status_code.hpp	/^    information_switching_protocols,$/;"	m	class:SimpleWeb::StatusCode
+internal_io_service	include/3rd_party/client_ws.hpp	/^    bool internal_io_service = false;$/;"	m	class:SimpleWeb::SocketClientBase
+internal_io_service	include/3rd_party/server_ws.hpp	/^    bool internal_io_service = false;$/;"	m	class:SimpleWeb::SocketServerBase
+io_service	include/3rd_party/client_ws.hpp	/^    std::shared_ptr<asio::io_service> io_service;$/;"	m	class:SimpleWeb::SocketClientBase
+io_service	include/3rd_party/server_ws.hpp	/^    std::shared_ptr<asio::io_service> io_service;$/;"	m	class:SimpleWeb::SocketServerBase
+length	include/3rd_party/client_ws.hpp	/^      Message(unsigned char fin_rsv_opcode, std::size_t length) noexcept : std::istream(&streambuf), fin_rsv_opcode(fin_rsv_opcode), length(length) {}$/;"	f	class:SimpleWeb::SocketClientBase::Message
+length	include/3rd_party/client_ws.hpp	/^      std::size_t length;$/;"	m	class:SimpleWeb::SocketClientBase::Message
+length	include/3rd_party/server_ws.hpp	/^      Message(unsigned char fin_rsv_opcode, std::size_t length) noexcept : std::istream(&streambuf), fin_rsv_opcode(fin_rsv_opcode), length(length) {}$/;"	f	class:SimpleWeb::SocketServerBase::Message
+length	include/3rd_party/server_ws.hpp	/^      std::size_t length;$/;"	m	class:SimpleWeb::SocketServerBase::Message
+main	src/client.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	src/main.cpp	/^int main() {$/;"	f
+main	src/server.cpp	/^int main(int argc, char** argv) {$/;"	f
+make_address	src/client.cpp	/^string make_address(int argc, char** argv)$/;"	f
+max_message_size	include/3rd_party/client_ws.hpp	/^      std::size_t max_message_size = std::numeric_limits<std::size_t>::max();$/;"	m	class:SimpleWeb::SocketClientBase::Config
+max_message_size	include/3rd_party/server_ws.hpp	/^      std::size_t max_message_size = std::numeric_limits<std::size_t>::max();$/;"	m	class:SimpleWeb::SocketServerBase::Config
+message	include/3rd_party/client_ws.hpp	/^      std::shared_ptr<Message> message;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+message_stream	include/3rd_party/server_ws.hpp	/^        std::shared_ptr<SendStream> message_stream;$/;"	m	class:SimpleWeb::SocketServerBase::Connection::SendData
+method	include/3rd_party/server_ws.hpp	/^      std::string method, path, query_string, http_version;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+move	include/3rd_party/client_ws.hpp	/^            : send_stream(std::move(send_stream)), callback(std::move(callback)) {}$/;"	f	class:SimpleWeb::SocketClientBase::Connection::SendData
+move	include/3rd_party/server_ws.hpp	/^            : header_stream(std::move(header_stream)), message_stream(std::move(message_stream)), callback(std::move(callback)) {}$/;"	f	class:SimpleWeb::SocketServerBase::Connection::SendData
+on_close	include/3rd_party/client_ws.hpp	/^    std::function<void(std::shared_ptr<Connection>, int, const std::string &)> on_close;$/;"	m	class:SimpleWeb::SocketClientBase
+on_close	include/3rd_party/server_ws.hpp	/^      std::function<void(std::shared_ptr<Connection>, int, const std::string &)> on_close;$/;"	m	class:SimpleWeb::SocketServerBase::Endpoint
+on_error	include/3rd_party/client_ws.hpp	/^    std::function<void(std::shared_ptr<Connection>, const error_code &)> on_error;$/;"	m	class:SimpleWeb::SocketClientBase
+on_error	include/3rd_party/server_ws.hpp	/^      std::function<void(std::shared_ptr<Connection>, const error_code &)> on_error;$/;"	m	class:SimpleWeb::SocketServerBase::Endpoint
+on_message	include/3rd_party/client_ws.hpp	/^    std::function<void(std::shared_ptr<Connection>, std::shared_ptr<Message>)> on_message;$/;"	m	class:SimpleWeb::SocketClientBase
+on_message	include/3rd_party/server_ws.hpp	/^      std::function<void(std::shared_ptr<Connection>, std::shared_ptr<Message>)> on_message;$/;"	m	class:SimpleWeb::SocketServerBase::Endpoint
+on_open	include/3rd_party/client_ws.hpp	/^    std::function<void(std::shared_ptr<Connection>)> on_open;$/;"	m	class:SimpleWeb::SocketClientBase
+on_open	include/3rd_party/server_ws.hpp	/^      std::function<void(std::shared_ptr<Connection>)> on_open;$/;"	m	class:SimpleWeb::SocketServerBase::Endpoint
+on_ping	include/3rd_party/client_ws.hpp	/^    std::function<void(std::shared_ptr<Connection>)> on_ping;$/;"	m	class:SimpleWeb::SocketClientBase
+on_ping	include/3rd_party/server_ws.hpp	/^      std::function<void(std::shared_ptr<Connection>)> on_ping;$/;"	m	class:SimpleWeb::SocketServerBase::Endpoint
+on_pong	include/3rd_party/client_ws.hpp	/^    std::function<void(std::shared_ptr<Connection>)> on_pong;$/;"	m	class:SimpleWeb::SocketClientBase
+on_pong	include/3rd_party/server_ws.hpp	/^      std::function<void(std::shared_ptr<Connection>)> on_pong;$/;"	m	class:SimpleWeb::SocketServerBase::Endpoint
+parse	include/3rd_party/utility.hpp	/^        static CaseInsensitiveMultimap parse(const std::string &str) {$/;"	f	class:SimpleWeb::HttpHeader::FieldValue::SemicolonSeparatedAttributes
+path	include/3rd_party/client_ws.hpp	/^    std::string path;$/;"	m	class:SimpleWeb::SocketClientBase
+path	include/3rd_party/server_ws.hpp	/^      std::string method, path, query_string, http_version;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+path_match	include/3rd_party/server_ws.hpp	/^      regex::smatch path_match;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+port	include/3rd_party/client_ws.hpp	/^    unsigned short port;$/;"	m	class:SimpleWeb::SocketClientBase
+port	include/3rd_party/server_ws.hpp	/^      Config(unsigned short port) noexcept : port(port) {}$/;"	f	class:SimpleWeb::SocketServerBase::Config
+port	include/3rd_party/server_ws.hpp	/^      unsigned short port;$/;"	m	class:SimpleWeb::SocketServerBase::Config
+port_num_sanity_check	include/utils.hpp	/^int port_num_sanity_check(const string& _port_no)$/;"	f
+query_string	include/3rd_party/server_ws.hpp	/^      std::string method, path, query_string, http_version;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+read_buffer	include/3rd_party/server_ws.hpp	/^      asio::streambuf read_buffer;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+read_handshake	include/3rd_party/server_ws.hpp	/^    void read_handshake(const std::shared_ptr<Connection> &connection) {$/;"	f	class:SimpleWeb::SocketServerBase
+read_message	include/3rd_party/client_ws.hpp	/^    void read_message(const std::shared_ptr<Connection> &connection, std::size_t num_additional_bytes) {$/;"	f	class:SimpleWeb::SocketClientBase
+read_message	include/3rd_party/server_ws.hpp	/^    void read_message(const std::shared_ptr<Connection> &connection, Endpoint &endpoint) const {$/;"	f	class:SimpleWeb::SocketServerBase
+read_message_content	include/3rd_party/client_ws.hpp	/^    void read_message_content(const std::shared_ptr<Connection> &connection, std::size_t num_additional_bytes) {$/;"	f	class:SimpleWeb::SocketClientBase
+read_message_content	include/3rd_party/server_ws.hpp	/^    void read_message_content(const std::shared_ptr<Connection> &connection, std::size_t length, Endpoint &endpoint, unsigned char fin_rsv_opcode) const {$/;"	f	class:SimpleWeb::SocketServerBase
+redirection_found	include/3rd_party/status_code.hpp	/^    redirection_found,$/;"	m	class:SimpleWeb::StatusCode
+redirection_moved_permanently	include/3rd_party/status_code.hpp	/^    redirection_moved_permanently,$/;"	m	class:SimpleWeb::StatusCode
+redirection_multiple_choices	include/3rd_party/status_code.hpp	/^    redirection_multiple_choices = 300,$/;"	m	class:SimpleWeb::StatusCode
+redirection_not_modified	include/3rd_party/status_code.hpp	/^    redirection_not_modified,$/;"	m	class:SimpleWeb::StatusCode
+redirection_permanent_redirect	include/3rd_party/status_code.hpp	/^    redirection_permanent_redirect,$/;"	m	class:SimpleWeb::StatusCode
+redirection_see_other	include/3rd_party/status_code.hpp	/^    redirection_see_other,$/;"	m	class:SimpleWeb::StatusCode
+redirection_switch_proxy	include/3rd_party/status_code.hpp	/^    redirection_switch_proxy,$/;"	m	class:SimpleWeb::StatusCode
+redirection_temporary_redirect	include/3rd_party/status_code.hpp	/^    redirection_temporary_redirect,$/;"	m	class:SimpleWeb::StatusCode
+redirection_use_proxy	include/3rd_party/status_code.hpp	/^    redirection_use_proxy,$/;"	m	class:SimpleWeb::StatusCode
+regex_orderable	include/3rd_party/server_ws.hpp	/^      regex_orderable(const char *regex_cstr) : regex::regex(regex_cstr), str(regex_cstr) {}$/;"	f	class:SimpleWeb::SocketServerBase::regex_orderable
+regex_orderable	include/3rd_party/server_ws.hpp	/^      regex_orderable(const std::string &regex_str) : regex::regex(regex_str), str(regex_str) {}$/;"	f	class:SimpleWeb::SocketServerBase::regex_orderable
+regex_orderable	include/3rd_party/server_ws.hpp	/^    class regex_orderable : public regex::regex {$/;"	c	class:SimpleWeb::SocketServerBase
+remote_endpoint	include/3rd_party/client_ws.hpp	/^      asio::ip::tcp::endpoint remote_endpoint;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+remote_endpoint	include/3rd_party/server_ws.hpp	/^      asio::ip::tcp::endpoint remote_endpoint;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+replace_char	src/main.cpp	/^void replace_char(string* _str, const char _from, const char _to)$/;"	f
+replace_char	src/server.cpp	/^void replace_char(string* _str, const char _from, const char _to)$/;"	f
+reuse_address	include/3rd_party/server_ws.hpp	/^      bool reuse_address = true;$/;"	m	class:SimpleWeb::SocketServerBase::Config
+send	include/3rd_party/client_ws.hpp	/^      void send(const std::shared_ptr<SendStream> &send_stream, const std::function<void(const error_code &)> &callback = nullptr,$/;"	f	class:SimpleWeb::SocketClientBase::Connection
+send	include/3rd_party/server_ws.hpp	/^      void send(const std::shared_ptr<SendStream> &send_stream, const std::function<void(const error_code &)> &callback = nullptr,$/;"	f	class:SimpleWeb::SocketServerBase::Connection
+send_close	include/3rd_party/client_ws.hpp	/^      void send_close(int status, const std::string &reason = "", const std::function<void(const error_code &)> &callback = nullptr) {$/;"	f	class:SimpleWeb::SocketClientBase::Connection
+send_close	include/3rd_party/server_ws.hpp	/^      void send_close(int status, const std::string &reason = "", const std::function<void(const error_code &)> &callback = nullptr) {$/;"	f	class:SimpleWeb::SocketServerBase::Connection
+send_from_queue	include/3rd_party/client_ws.hpp	/^      void send_from_queue() {$/;"	f	class:SimpleWeb::SocketClientBase::Connection
+send_from_queue	include/3rd_party/server_ws.hpp	/^      void send_from_queue() {$/;"	f	class:SimpleWeb::SocketServerBase::Connection
+send_queue	include/3rd_party/client_ws.hpp	/^      std::list<SendData> send_queue;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+send_queue	include/3rd_party/server_ws.hpp	/^      std::list<SendData> send_queue;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+send_stream	include/3rd_party/client_ws.hpp	/^        std::shared_ptr<SendStream> send_stream;$/;"	m	class:SimpleWeb::SocketClientBase::Connection::SendData
+server_error_bad_gateway	include/3rd_party/status_code.hpp	/^    server_error_bad_gateway,$/;"	m	class:SimpleWeb::StatusCode
+server_error_gateway_timeout	include/3rd_party/status_code.hpp	/^    server_error_gateway_timeout,$/;"	m	class:SimpleWeb::StatusCode
+server_error_http_version_not_supported	include/3rd_party/status_code.hpp	/^    server_error_http_version_not_supported,$/;"	m	class:SimpleWeb::StatusCode
+server_error_insufficient_storage	include/3rd_party/status_code.hpp	/^    server_error_insufficient_storage,$/;"	m	class:SimpleWeb::StatusCode
+server_error_internal_server_error	include/3rd_party/status_code.hpp	/^    server_error_internal_server_error = 500,$/;"	m	class:SimpleWeb::StatusCode
+server_error_loop_detected	include/3rd_party/status_code.hpp	/^    server_error_loop_detected,$/;"	m	class:SimpleWeb::StatusCode
+server_error_not_extended	include/3rd_party/status_code.hpp	/^    server_error_not_extended = 510,$/;"	m	class:SimpleWeb::StatusCode
+server_error_not_implemented	include/3rd_party/status_code.hpp	/^    server_error_not_implemented,$/;"	m	class:SimpleWeb::StatusCode
+server_error_service_unavailable	include/3rd_party/status_code.hpp	/^    server_error_service_unavailable,$/;"	m	class:SimpleWeb::StatusCode
+server_error_variant_also_negotiates	include/3rd_party/status_code.hpp	/^    server_error_variant_also_negotiates,$/;"	m	class:SimpleWeb::StatusCode
+socket	include/3rd_party/client_ws.hpp	/^      std::unique_ptr<socket_type> socket; \/\/ Socket must be unique_ptr since asio::ssl::stream<asio::ip::tcp::socket> is not movable$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+socket	include/3rd_party/server_ws.hpp	/^      std::unique_ptr<socket_type> socket; \/\/ Socket must be unique_ptr since asio::ssl::stream<asio::ip::tcp::socket> is not movable$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+socket_close_mutex	include/3rd_party/client_ws.hpp	/^      std::mutex socket_close_mutex;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+socket_close_mutex	include/3rd_party/server_ws.hpp	/^      std::mutex socket_close_mutex;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+start	include/3rd_party/client_ws.hpp	/^    void start() {$/;"	f	class:SimpleWeb::SocketClientBase
+start	include/3rd_party/server_ws.hpp	/^    void start() {$/;"	f	class:SimpleWeb::SocketServerBase
+status_code	include/3rd_party/client_ws.hpp	/^      std::string http_version, status_code;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+status_code_strings	include/3rd_party/status_code.hpp	/^  inline const std::map<StatusCode, std::string> &status_code_strings() {$/;"	f	namespace:SimpleWeb
+str	include/3rd_party/server_ws.hpp	/^      std::string str;$/;"	m	class:SimpleWeb::SocketServerBase::regex_orderable
+strand	include/3rd_party/client_ws.hpp	/^      asio::io_service::strand strand;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+strand	include/3rd_party/server_ws.hpp	/^      asio::io_service::strand strand;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+streambuf	include/3rd_party/client_ws.hpp	/^      Message() noexcept : std::istream(&streambuf), length(0) {}$/;"	m	class:SimpleWeb::SocketClientBase::Message::std
+streambuf	include/3rd_party/client_ws.hpp	/^      Message(unsigned char fin_rsv_opcode, std::size_t length) noexcept : std::istream(&streambuf), fin_rsv_opcode(fin_rsv_opcode), length(length) {}$/;"	m	class:SimpleWeb::SocketClientBase::Message::std
+streambuf	include/3rd_party/client_ws.hpp	/^      asio::streambuf streambuf;$/;"	m	class:SimpleWeb::SocketClientBase::Message
+streambuf	include/3rd_party/client_ws.hpp	/^      asio::streambuf streambuf;$/;"	m	class:SimpleWeb::SocketClientBase::SendStream
+streambuf	include/3rd_party/server_ws.hpp	/^      Message() noexcept : std::istream(&streambuf), length(0) {}$/;"	m	class:SimpleWeb::SocketServerBase::Message::std
+streambuf	include/3rd_party/server_ws.hpp	/^      Message(unsigned char fin_rsv_opcode, std::size_t length) noexcept : std::istream(&streambuf), fin_rsv_opcode(fin_rsv_opcode), length(length) {}$/;"	m	class:SimpleWeb::SocketServerBase::Message::std
+streambuf	include/3rd_party/server_ws.hpp	/^      asio::streambuf streambuf;$/;"	m	class:SimpleWeb::SocketServerBase::Message
+streambuf	include/3rd_party/server_ws.hpp	/^      asio::streambuf streambuf;$/;"	m	class:SimpleWeb::SocketServerBase::SendStream
+success_accepted	include/3rd_party/status_code.hpp	/^    success_accepted,$/;"	m	class:SimpleWeb::StatusCode
+success_already_reported	include/3rd_party/status_code.hpp	/^    success_already_reported,$/;"	m	class:SimpleWeb::StatusCode
+success_created	include/3rd_party/status_code.hpp	/^    success_created,$/;"	m	class:SimpleWeb::StatusCode
+success_im_used	include/3rd_party/status_code.hpp	/^    success_im_used = 226,$/;"	m	class:SimpleWeb::StatusCode
+success_multi_status	include/3rd_party/status_code.hpp	/^    success_multi_status,$/;"	m	class:SimpleWeb::StatusCode
+success_no_content	include/3rd_party/status_code.hpp	/^    success_no_content,$/;"	m	class:SimpleWeb::StatusCode
+success_non_authoritative_information	include/3rd_party/status_code.hpp	/^    success_non_authoritative_information,$/;"	m	class:SimpleWeb::StatusCode
+success_ok	include/3rd_party/status_code.hpp	/^    success_ok = 200,$/;"	m	class:SimpleWeb::StatusCode
+success_partial_content	include/3rd_party/status_code.hpp	/^    success_partial_content,$/;"	m	class:SimpleWeb::StatusCode
+success_reset_content	include/3rd_party/status_code.hpp	/^    success_reset_content,$/;"	m	class:SimpleWeb::StatusCode
+thread_pool_size	include/3rd_party/server_ws.hpp	/^      std::size_t thread_pool_size = 1;$/;"	m	class:SimpleWeb::SocketServerBase::Config
+threads	include/3rd_party/server_ws.hpp	/^    std::vector<std::thread> threads;$/;"	m	class:SimpleWeb::SocketServerBase
+timeout_idle	include/3rd_party/client_ws.hpp	/^      long timeout_idle = 0;$/;"	m	class:SimpleWeb::SocketClientBase::Config
+timeout_idle	include/3rd_party/client_ws.hpp	/^      long timeout_idle;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+timeout_idle	include/3rd_party/server_ws.hpp	/^      long timeout_idle = 0;$/;"	m	class:SimpleWeb::SocketServerBase::Config
+timeout_idle	include/3rd_party/server_ws.hpp	/^      long timeout_idle;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+timeout_request	include/3rd_party/client_ws.hpp	/^      long timeout_request = 0;$/;"	m	class:SimpleWeb::SocketClientBase::Config
+timeout_request	include/3rd_party/server_ws.hpp	/^      long timeout_request = 5;$/;"	m	class:SimpleWeb::SocketServerBase::Config
+timer	include/3rd_party/client_ws.hpp	/^      std::unique_ptr<asio::steady_timer> timer;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+timer	include/3rd_party/server_ws.hpp	/^      std::unique_ptr<asio::steady_timer> timer;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+timer_mutex	include/3rd_party/client_ws.hpp	/^      std::mutex timer_mutex;$/;"	m	class:SimpleWeb::SocketClientBase::Connection
+timer_mutex	include/3rd_party/server_ws.hpp	/^      std::mutex timer_mutex;$/;"	m	class:SimpleWeb::SocketServerBase::Connection
+unknown	include/3rd_party/status_code.hpp	/^    unknown = 0,$/;"	m	class:SimpleWeb::StatusCode
+upgrade	include/3rd_party/server_ws.hpp	/^    void upgrade(const std::shared_ptr<Connection> &connection) {$/;"	f	class:SimpleWeb::SocketServerBase
+write_handshake	include/3rd_party/server_ws.hpp	/^    void write_handshake(const std::shared_ptr<Connection> &connection) {$/;"	f	class:SimpleWeb::SocketServerBase
