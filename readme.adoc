@@ -1,0 +1,53 @@
+= Websocket Playground
+
+My first real foray into getting acquainted with the WebSocket protocol - trying to write a working Websocket server.
+
+== Executables
+
+=== server
+
+The server is the main protagonist of this playground - listens for incoming messages and echoes them back after changing all question marks it received into exclamation marks.
+
+The port is selected when running the server application (e.g. `./server 8080`), and it sits at the address `localhost:<port>/ws`.
+
+Twist::
+    The server initiates closing of the session if it receives a non-text data frame via the WS protocol.
+
+=== client
+
+The server would not be very lonely if it didn't have anyone to talk to, so the client application sends some test messages and listens for responses from the server.
+
+The client application can be launched in a similar fashion to the server `./client 8080`.
+
+== Testing
+
+There are two (rather barbaric) test suites written in Bash meant to test if the applications allow entering impossible port numbers as arguments.
+
+For brevity, testing the correctness of the server functionality (i.e. if it changes the aforementioned punctuation correctly) was performed quite rudely, at the end, by simply filtering client output that has the phrase `received` in it and then checking if there are any exclamation marks left. +
+In `vim` the script looked something like this (see below) and if no results were found - received messages were assumed correct if the amount of received messages equaled the amount of sent messages.
+....
+:g/received/m$`
+/?
+....
+
+== A Word on the Code
+
+Much of the underlying framework was "borrowed" from the this open-source project here https://github.com/eidheim/Simple-WebSocket-Server
+
+The `on_start`, `on_message` functions and friends were created using lambda notation in order to keep the relevant logic visible in the same place, which amounts to a bearable amount of clutter giver the brevity of the application. Should similar parameters become many, I would consider other options e.g. separate header + implementation file pairs for each server and/or thread, or arrays of function<> type classes if dynamic loading/swapping would be needed.
+
+The server instance itself is run as a separate thread in `server.cpp` so that the main process would return control to the user and be capable of accepting input related to management of the server subprocess.
+
+When checking the validity of a supplied port number, exceptions are handled separately to prevent process from crashing and provide more elaborate messages on what has gone wrong. And the functionality itself is withing a separate header file (`include/utils.hpp`) since it is used in both applications.
+
+== Compiling
+
+On Linux, running `make` in the project directory should do the trick if the dependencies are satisfied.
+
+The project was developed on and for Linux, but it should in theory compile and run on Windows or OS X with none or minimal tweaks required.
+
+=== Dependencies
+
+* boost (portability)
+* pthread (for standard library thread support)
+* ssl
