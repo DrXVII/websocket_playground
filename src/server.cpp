@@ -90,9 +90,10 @@ int main(int argc, char** argv) {
     // See RFC 6455 7.4.1. for status codes
     echo.on_close =
         [](shared_ptr<Ws_server::Connection> connection,
-           int status, const string& /*reason*/) {
+           int status, const string& reason) {
         cout << "Server: Closed connection " << connection.get() << " "
-             << "with status code " << status
+             << "with status code " << status << " "
+             << "reason: " << reason
              << endl;
     };
 

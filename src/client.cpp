@@ -67,16 +67,18 @@ int main(int argc, char** argv) {
             connection->send(send_stream);
         }
 
-        //*send_stream << "non_text";
+        *send_stream << "non_text";
         ////130 is the websocket opcode indicating binary data (single fragment)
-        //connection->send(send_stream, nullptr, 130);
+        connection->send(send_stream, nullptr, 130);
     };
 
     client.on_close =
         [](shared_ptr<Ws_client::Connection> /*connection*/,
-           int status, const string& /*reason*/)
+           int status, const string& reason)
     {
-        cout << "Client: Closed connection with status code " << status << endl;
+        cout << "Client: Closed connection with status code " << status << " "
+             << "reason: " << reason
+             << endl;
     };
 
     /* See
