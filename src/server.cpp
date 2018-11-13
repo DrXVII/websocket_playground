@@ -53,6 +53,7 @@ int main(int argc, char** argv) {
     {
         string message_str = message->string();
 
+        //opcode ending in 0x1 denotes binary data in WS
         if((message->fin_rsv_opcode & 0x1) != 0x1) {
             cout << "Server: Received non-text data, closing connection"
                  << endl;
