@@ -74,11 +74,9 @@ int main(int argc, char** argv) {
 
     client.on_close =
         [](shared_ptr<Ws_client::Connection> /*connection*/,
-           int status, const string& reason)
+           int status, const string& /*reason*/)
     {
-        cout << "Client: Closed connection with status code " << status
-             << "reason: \"" << reason << "\" "
-             << endl;
+        cout << "Client: Closed connection with status code " << status << endl;
     };
 
     /* See
